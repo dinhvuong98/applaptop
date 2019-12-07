@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Asus Vivobook X507UF-EJ257T/Core i7-8550U/4G/1TB/MX130_2GB/WIN10"
+            android:textColor="#396"
+            android:textSize="17dp" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/new2" />
+        <Button
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ff9822"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:text="thêm vào giỏ hàng"
+            android:textColor="#fff" ></Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#396"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="Khuyến mãi đặc biệt"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="- Tặng chuột không dây Zades M370
+            \n- Tặng chuột có dây T-127
+            \n- Tặng balo laptop
+            \n- Giảm 25% combo bảo vệ laptop"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e0e0e0"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="5dp"
+            android:text="Giảm 200.000 VNĐ khi thanh toán qua VNPAY"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="CẤU HÌNH ASUS VIVOBOOK X507UF-EJ257T/CORE I7-8550U/4G/1TB/MX130_2GB/WIN10"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="Màn hình :15.6 inchs FHD
+            \nCPU :Intel Core i7 8550U
+            \nRAM :4 GB DDR4 2400 MHz
+            \nVGA :NVIDIA GeForce MX130 ; Intel UHD Graphics 620 2 GB
+            \nHĐH :Windows 10 Home SL 64
+            \nNặng:1.68 kg"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐÁNH GIÁ"
+            android:padding="5dp"
+            android:textColor="#397"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sản phẩm tốt"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

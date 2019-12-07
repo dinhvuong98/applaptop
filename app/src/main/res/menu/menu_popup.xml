@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnaccount"
+        android:icon="@drawable/new2"
+        android:title="Tài Khoản" />
+    <item
+        android:id="@+id/mndell"
+        android:title="LAPTOP DELL" />
+    <item
+        android:id="@+id/mnasus"
+        android:title="LAPTOP ASUS" />
+    <item
+        android:id="@+id/mncpass"
+        android:title="Đổi mật khẩu" />
+    <item
+        android:id="@+id/mnlogout"
+        android:title="Đăng Xuất" />
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo2" />
+
+            <EditText
+                android:id="@+id/keyword"
+                android:layout_width="211dp"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="TÌM KIẾM SẢN PHẨM"
+                android:padding="10dp"
+                android:textColorHint="#ff8a00"
+                android:textSize="15dp"></EditText>
+
+            <Button
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Tìm kiếm"
+                android:textSize="10dp" />
+
+            <ImageButton
+                android:id="@+id/popupmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:src="@drawable/menu" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SẢN PHẨM MỚI"
+            android:textColor="#496"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"></androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="LAPTOP SINH VIÊN - VĂN PHÒNG"
+            android:textColor="#496"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvStudent">
+        </ListView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="LAPTOP GAMING - ĐỒ HỌA"
+            android:textColor="#496"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_gaming_graphic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"></androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff8a00"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="LAPTOP SZAKI"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="217dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:fontFamily="sans-serif-condensed-medium"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text="Hệ thống cửa hàng-->
+<!--                    \n\nHệ thống bảo hàng-->
+<!--                    \n\nChính sách giao hàng-->
+<!--                    \n\nChính sách đổi trả"-->
+<!--                    android:textColor="#339"-->
+<!--                    android:textSize="19dp" />-->
+<!--            </LinearLayout>-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="Tin khuyến mãi
+                    \n\nTin tuyển dụng
+                    \n\nHướng dẫn mua hàng
+                    \n\nHướng dẫn mua trả góp"
+                    android:textColor="#339"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="197dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Liên hệ với chúng tôi:"
+                    android:textColor="#496"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Tel: 0123456789
+                                \nEmail: szaki@gmail.com
+                                \nWebsite: szaki.com"
+                    android:textColor="#102"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Cảm ơn đã tin dùng Laptop szaki"
+                    android:textColor="#821" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

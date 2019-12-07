@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APP LAPTOP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="actionBarLogin">ĐĂNG NHẬP</string>
+    <string name="actionBarHome">TRANG CHỦ</string>
+    <string name="actionBarProduct">DANH MỤC SẢN PHẨM</string>
+    <string name="actionBarProductDetail">CHI TIẾT SẢN PHẨM</string>
+    <string name="actionBarRegister">ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="actionBarChangePassword">ĐỔI MẬT KHẨU</string>
+    <string name="actionBarForgotPassword">LẤY LẠI MẬT KHẨU</string>
+</resources>
